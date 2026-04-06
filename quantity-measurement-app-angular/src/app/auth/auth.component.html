@@ -99,7 +99,7 @@
         <button type="submit" class="submit-btn" [disabled]="signupLoading">
           {{ signupLoading ? 'Creating account...' : 'Signup' }}
         </button>
-
+      
         <p class="form-msg" [class.success]="signupMsgType === 'success'" [class.error]="signupMsgType === 'error'">
           {{ signupMsg }}
         </p>
